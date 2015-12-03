@@ -18,5 +18,5 @@ else:
 	price = 99.99
 	while price > 4.74:
 		price = get_price()
-	print('Buy!')
+	print('Buy! ' + str(price))
 
